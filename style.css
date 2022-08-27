@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*LAYOUT 1*/
+.container{
+    border: 4px black solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 150px;
+    padding: 24px;
+}
+
+.box{
+    border: 2px black solid;
+    height: 100px;
+    width: 100px;
+}
+
+.box-small{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+}
+
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
